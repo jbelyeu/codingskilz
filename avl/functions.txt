@@ -1,0 +1,19 @@
+def debug(msg):
+class Node():
+    def __init__(self, key):
+class AVLTree():
+    def __init__(self, *args):
+    def height(self):
+    def is_leaf(self):
+    def insert(self, key):
+    def rebalance(self):
+    def rrotate(self):
+    def lrotate(self):
+    def update_heights(self, recurse=True):
+    def update_balances(self, recurse=True):
+    def delete(self, key):
+    def logical_predecessor(self, node):
+    def logical_successor(self, node):
+    def check_balanced(self):
+    def inorder_traverse(self):
+    def display(self, level=0, pref=''):
